@@ -1,8 +1,10 @@
+import config.BaseClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
+import wetherobjects.WetherPageFactory;
 
-public class TestWithFactory extends BaseClass{
+public class TestWithFactory extends BaseClass {
     static WetherPageFactory wetherPageFactory;
     @BeforeClass
     public static void b(){

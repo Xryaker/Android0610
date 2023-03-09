@@ -1,6 +1,8 @@
+import config.BaseAndroidApp;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import wetherobjects.WeatherPageObject;
 
 public class TestAndroidApp extends BaseAndroidApp {
     @BeforeClass

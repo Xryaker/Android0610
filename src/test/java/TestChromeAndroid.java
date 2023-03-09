@@ -1,8 +1,7 @@
-import org.junit.Assert;
+import config.BaseClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runners.Parameterized;
-import org.openqa.selenium.support.PageFactory;
+import wetherobjects.WetherObject;
 
 public class TestChromeAndroid extends BaseClass {
     static WetherObject wetherObject;
